@@ -6,9 +6,5 @@
 }
 
 p {
-    color: #2f10dd;
-}
-
-.blanco {
-    color: #fff;
+    color: hwb(244 0% 1%);
 }

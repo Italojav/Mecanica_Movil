@@ -20,273 +20,261 @@
 </head>
 
 <body>
-    <div class="row">
-        <!-- Aca va el navbar -->
-        <div class="container-fluid mx-4">
-            <i class="fa-solid fa-engine-warning fa-2xl"></i>
-            <nav class="navbar navbar-expand-md  fixed-top ">
-                <div class="container">
-                    <a class="navbar-brand text-left  fs-3" href="https://italojav.github.io/">
-                        <img src="assets/img/Logo.JPG" alt="" width="150" height="100">
-                        <i class="fa-regular fa-engine-warning fa-xl"></i></a>
-                    <button class="navbar-toggler navbar-dark " type="button " data-bs-toggle="collapse " data-bs-target="#navbarNav " aria-controls="navbarNav " aria-expanded="false " aria-label="Toggle navigation ">
-                    <span class="navbar-toggler-icon "></span>
-                    </button>
-                    <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav ms-auto ">
-                            <li class="nav-item ">
-                                <a class="nav-link  fs-4" href="#">
-                                    <p> Inicio</p>
-                                </a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link  fs-4" href="#quienes ">
-                                    <p>Quienes Somos</p>
-                                </a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link  fs-4" href="#destacados ">
-                                    <p> Destacados</p>
-                                </a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link fs-4" href="#contacto ">
-                                    <p> Contactenos</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+    <div class="container-fluid">
+        <!--  NAV BAR -->
+        <nav class="navbar navbar-expand-lg bg-transparent fixed-top ">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#">
+                    <img src="assets/img/Logo.JPG" alt="Logo" width="50" height="40" class="d-inline-block align-text-top">
+                    <p> Mecanica Movil</p>
+                </a>
 
-        <!-- Aca va el carrusel -->
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/img/Foto1.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/Foto2.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/Foto3.JPG" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/Foto4.JPG" class="d-block w-100" alt="...">
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav text-white ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-light active" aria-current="page" href="#">
+                                <p> Inicio</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-white " href="#quienes">
+                                <p> Quienes Somos</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-white " href="#destacados">
+                                <p> Destacados</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-white " href="#contacto">
+                                <p> Contacto</p>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        </nav>
+        <!-- FIN barra  -->
+    </div>
+
+
+
+    <!-- Aca va el carrusel -->
+    <div id="carouselExampleAutoplaying" class="carouselExampleExample slide pointer event">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/Foto1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/Foto2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/Foto3.JPG" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/Foto4.JPG" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </button>
+    </div>
+
+    <!-- quienes Somos -->
+    <!-- Aca va el los parrafos -->
+    <section class="container-fluid">
+        <div class="container">
+            <h3 class="text-center n-seccion" id="quienes">¿QUIENES SOMOS?</h3>
+            <div class="row">
+                <div class="col-12 col-md-4 text-center">
+                    <div class="container-fluid bg-primary" data-toggle=”collapse”>
+                        <i class="fa-solid fa-car fa-2xl m-3 p-1" style="color: #ffffff; "></i>
+                    </div>
+                    <UL class=" text-right ">
+                        <br>
+                        <br>
+                        <li>
+                            <p>Mantenciones por Kilometraje</p>
+                        </li>
+                        <li>
+                            <p>Cambios de Aceite</p>
+                        </li>
+                        <li>
+                            <p>Frenos</p>
+                        </li>
+                        <li>
+                            <p>Revisión Precompra</p>
+                        </li>
+                    </UL>
+                </div>
+                <div class="col-12 col-md-4 text-center ">
+                    <UL>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <LI>
+                            <p>Scaner</p>
+                        </LI>
+                        <LI>
+                            <p>Electricidad Automotriz</p>
+                        </LI>
+                        <LI>
+                            <p>Mecanica a Domicilio</p>
+                        </LI>
+                        <LI>
+                            <p>Asistencia en Ruta</p>
+                        </LI>
+                        <LI>
+                            <p>Inyeccion Electronica</p>
+                        </LI>
+                    </UL>
+                    <div class="container-fluid bg-primary ">
+                        <i class="fa-solid fa-key fa-2xl m-3 p-1 " style="color: #ffffff; "></i>
+                        <i class="fa-solid fa-engine-warning fa-2xl "></i>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 text-center ">
+                    <div class="container-fluid bg-primary ">
+                        <i class="fa-solid fa-route fa-2xl m-3 p-1 " style="color: #ffffff; "></i>
+                    </div>
+                    <p>Ubicacion</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d556.140412616852!2d-72.4332859421759!3d-37.9536632468733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966ba7be4ce71f95%3A0x8ccc953960e39645!2sMec%C3%A1nica%20Movil%20Araucan%C3%ADa.!5e0!3m2!1ses!2scl!4v1682693016709!5m2!1ses!2scl "
+                        width="300 " height="300 " style="border:0; " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
+                </div>
+            </div>
         </div>
+    </section>
+    <hr class="m-5 ">
 
-        <!-- Aca va el los parrafos -->
-        <div class="container-fluid  " data-toggle=”collapse”>
-            <section>
-                <div class="container d-none d-sm-block">
-                    <h3 class="text-center mt-4" id="quienes">¿QUIENES SOMOS?</h3>
-                    <div class="row">
-                        <div class="col-4 text-center ">
-                            <div class="container-fluid bg-primary " data-toggle=”collapse”>
-                                <i class="fa-solid fa-car fa-2xl m-3 p-1" style="color: #ffffff; "></i>
-                            </div>
-                            <UL class="text-right">
-                                <br>
-                                <br>
-                                <li>
-                                    <p>Mantenciones por Kilometraje</p>
-                                </li>
-                                <li>
-                                    <p>Cambios de Aceite</p>
-                                </li>
-                                <li>
-                                    <p>Frenos</p>
-                                </li>
-                                <li>
-                                    <p>Revisión Precompra</p>
-                                </li>
-
-                            </UL>
-                        </div>
-                        <div class="col-4 text-center">
-                            <UL>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <LI>
-                                    <p>Scaner</p>
-                                </LI>
-                                <LI>
-                                    <p>Electricidad Automotriz</p>
-                                </LI>
-                                <LI>
-                                    <p>Mecanica a Domicilio</p>
-                                </LI>
-                                <LI>
-                                    <p>Asistencia en Ruta</p>
-                                </LI>
-                                <LI>
-                                    <p>Inyeccion Electronica</p>
-                                </LI>
-                            </UL>
-                            <div class="container-fluid bg-primary ">
-                                <i class="fa-solid fa-key fa-2xl m-3 p-1" style="color: #ffffff;"></i>
-                                <i class="fa-solid fa-engine-warning fa-2xl"></i>
-                            </div>
-                        </div>
-
-                        <div class="col-4 text-center">
-                            <div class="container-fluid bg-primary ">
-                                <i class="fa-solid fa-route fa-2xl m-3 p-1" style="color: #ffffff;"></i>
-                            </div>
-                            <p>Ubicacion</p>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d556.140412616852!2d-72.4332859421759!3d-37.9536632468733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966ba7be4ce71f95%3A0x8ccc953960e39645!2sMec%C3%A1nica%20Movil%20Araucan%C3%ADa.!5e0!3m2!1ses!2scl!4v1682693016709!5m2!1ses!2scl"
-                                width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
+    <!-- Aca van las tarjetas-->
+    <section class="container-fluid tarjetas ">
+        <div class="container">
+            <h2 class="texto text-center" id="destacados">DESTACADOS</h2>
+            <div class="row">
+                <div class="col-12 col-md-3 card p-1">
+                    <img src="assets/img/mecanica.jpg " class="card-img-top " alt="... ">
+                    <div class="card-body bg-info ">
+                        <h5>MECANICA</h5>
+                        <p class="card-text ">Diagnosticos</p>
+                        <p class="card-text ">Reparaciones</p>
+                        <p class="card-text ">Ajustes</p>
+                        <p class="card-text ">Recambio de piezas</p>
                     </div>
                 </div>
-            </section>
-            <hr class="m-5">
 
-            <!-- Aca van las tarjetas-->
-            <section class="container-fluid tarjetas ">
-                <div>
-                    <div class="container container-fluid">
-                        <h2 class="texto texto-sd-none text-center mt-4" id="destacados">DESTACADOS</h2>
-                        <div class="row text-center mb-5 ">
-                            <div class="col-3 container-fluid">
-                                <div class="card ">
-                                    <img src="assets/img/mecanica.jpg " class="card-img-top " alt="... ">
-                                    <div class="card-body bg-info ">
-                                        <h5>MECANICA</h5>
-                                        <p class="card-text ">Diagnosticos</p>
-                                        <p class="card-text ">Reparaciones</p>
-                                        <p class="card-text ">Ajustes</p>
-                                        <p class="card-text ">Recambio de piezas</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-3 container-fluid">
-                                <div class="card">
-                                    <img src="assets/img/alternador.jpg " class="card-img-top " alt="...">
-                                    <div class="card-body bg-info ">
-                                        <h5>ALTERNADORES</h5>
-                                        <p class="card-text ">Diagnostico</p>
-                                        <p class="card-text ">Manteciones</p>
-                                        <p class="card-text ">Reparaciones</p>
-                                        <p class="card-text ">Recambio componentes</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-3 container-fluid">
-                                <div class="card">
-                                    <img src="assets/img/frenos.jpg " class="card-img-top " alt="... ">
-                                    <div class="card-body bg-info ">
-                                        <h5>FRENOS</h5>
-                                        <p class="card-text ">Diagnostico</p>
-                                        <p class="card-text ">Manteciones</p>
-                                        <p class="card-text ">Rectificado</p>
-                                        <p class="card-text ">Pastillas - balatas</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-3 container-fluid">
-                                <div class="card">
-                                    <img src="assets/img/electrommecanica.jpeg " class="card-img-top " alt="... ">
-                                    <div class="card-body bg-info ">
-                                        <h5>EECTRONICA</h5>
-                                        <p class="card-text ">Diagnostico</p>
-                                        <p class="card-text ">Reparaciones</p>
-                                        <p class="card-text ">Inst. Electricas</p>
-                                        <p class="card-text ">Electricidad en Gral. </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-12 col-md-3 card p-1">
+                    <img src="assets/img/alternador.jpg " class="card-img-top " alt="... ">
+                    <div class="card-body bg-info ">
+                        <h5>ALTERNADORES</h5>
+                        <p class="card-text ">Diagnostico</p>
+                        <p class="card-text ">Manteciones</p>
+                        <p class="card-text ">Reparaciones</p>
+                        <p class="card-text ">Cambio componentes</p>
                     </div>
                 </div>
-            </section>
-            <i class="fa-regular fa-engine-warning fa-xl"></i>
-            <!-- Aca van los datos de contacto-->
-            <section class="container-fluid">
-                <div>
-                    <div class="container ">
-                        <h3 class="texto text-center mt-4" id="contacto">Escribanos</h3>
-                        <div class="row text-white ">
-                            <div class="mb-3 ">
-                                <label for="exampleFormControlInput1 " class="form-label ">Nombre</label>
-                                <input type="email " class="form-control " id="exampleFormControlInput1 " placeholder="Ingrese Nombre">
-                            </div>
-                            <div class="mb-3 ">
-                                <label for="exampleFormControlInput1 " class="form-label ">Apellido</label>
-                                <input type="email " class="form-control " id="exampleFormControlInput1 " placeholder="Ingrese Apellido">
-                            </div>
-                            <div class="mb-3 ">
-                                <label for="exampleFormControlTextarea1 " class="form-label ">Mensaje</label>
-                                <textarea class="form-control " id="exampleFormControlTextarea1 " rows="5 " placeholder="Ingrese su Mensaje"></textarea>
-                                <a href="#">
-                                    <!-- Button trigger modal -->
-                                    <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" type="submit" class="enviar btn btn-info mt-2">Enviar
+
+                <div class="col-12 col-md-3 card p-1">
+                    <img src="assets/img/frenos.jpg " class="card-img-top " alt="... ">
+                    <div class="card-body bg-info ">
+                        <h5>FRENOS</h5>
+                        <p class="card-text ">Diagnostico</p>
+                        <p class="card-text ">Manteciones</p>
+                        <p class="card-text ">Rectificado</p>
+                        <p class="card-text ">Pastillas - balatas</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 card p-1">
+                    <img src="assets/img/electrommecanica.jpeg " class="card-img-top " alt="... ">
+                    <div class="card-body bg-info ">
+                        <h5>ELECTRONICA</h5>
+                        <p class="card-text ">Diagnostico</p>
+                        <p class="card-text ">Reparaciones</p>
+                        <p class="card-text ">Inst. Electricas</p>
+                        <p class="card-text ">Electricidad en Gral. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <i class="fa-regular fa-engine-warning fa-xl "></i>
+
+    <!-- Aca van los datos de contacto-->
+    <section class="container-fluid ">
+        <div class="container ">
+            <h3 class="texto text-center mt-4 " id="contacto">Escribanos</h3>
+            <div class="row text-white ">
+                <div class="mb-3 ">
+                    <label for="exampleFormControlInput1 " class="form-label ">Nombre</label>
+                    <input type="email " class="form-control " id="exampleFormControlInput1 " placeholder="Ingrese Nombre ">
+                </div>
+                <div class="mb-3 ">
+                    <label for="exampleFormControlInput1 " class="form-label ">Apellido</label>
+                    <input type="email " class="form-control " id="exampleFormControlInput1 " placeholder="Ingrese Apellido ">
+                </div>
+                <div class="mb-3 ">
+                    <label for="exampleFormControlTextarea1 " class="form-label ">Mensaje</label>
+                    <textarea class="form-control " id="exampleFormControlTextarea1 " rows="5 " placeholder="Ingrese su Mensaje "></textarea>
+                    <a href="# ">
+                        <!-- Button trigger modal -->
+                        <button data-bs-toggle="modal " data-bs-target="#staticBackdrop " type="submit" class="enviar btn btn-info mt-2">Enviar
                                 </button></a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-            </section>
+            </div>
         </div>
-        <footer>
-            <div class="container-fluid bg-primary p-2">
-                <div class="row text-center">
-                    <div class="col-6">
-                        <a class="navbar-brand text-white text-left" href="#">
-                            <i class="fa-solid fa-gears fa-xl"> </i>
-                            <p class="blanco">Mecanica Movil Araucania</p>
-                        </a>
-                    </div>
-                    <div class="col-6">
-                        <div class="row text-center">
-                            <div class="col-2">
-                                <a class="blanco" href="https://www.linkedin.com ">
-                                    <i class="fa-brands fa-linkedin fa-2xl " data-bs-placement="top" data-bs-title="www.linkedin.com" data-bs-toggle="tooltip" href="https://www.linkedin.com"></i>
-                                </a>
-                            </div>
-                            <div class="col-2 ">
-                                <a class="blanco" href="https://www.facebook.com ">
-                                    <i class="fa-brands fa-facebook fa-2xl " data-bs-placement="top" data-bs-title="www.facebook.com" data-bs-toggle="tooltip" href="https://www.facebook.com/"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Sorry!!</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                Mensajeria en mantecion proximamente disponible!!!
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
+    </section>
+
+    </div>
+    <footer>
+        <div class="container-fluid bg-primary p-2 ">
+            <div class="row text-center ">
+                <div class="col-6 ">
+                    <a class="navbar-brand text-white text-left " href="# ">
+                        <i class="fa-solid fa-gears fa-xl "> </i>
+                        <p class="blanco ">Mecanica Movil Araucania</p>
+                    </a>
+                </div>
+                <div class="col-6 ">
+                    <div class="row text-center ">
+                        <div class="col-2 ">
+                            <a class="blanco " href="https://www.linkedin.com ">
+                                <i class="fa-brands fa-linkedin fa-2xl " data-bs-placement="top " data-bs-title="www.linkedin.com " data-bs-toggle="tooltip " href="https://www.linkedin.com "></i>
+                            </a>
+                        </div>
+                        <div class="col-2 ">
+                            <a class="blanco " href="https://www.facebook.com ">
+                                <i class="fa-brands fa-facebook fa-2xl " data-bs-placement="top " data-bs-title="www.facebook.com " data-bs-toggle="tooltip " href="https://www.facebook.com/ "></i>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
+            <!-- Modal -->
+            <div class="modal fade " id="staticBackdrop " data-bs-backdrop="static " data-bs-keyboard="false " tabindex="-1 " aria-labelledby="staticBackdropLabel " aria-hidden="true ">
+                <div class="modal-dialog ">
+                    <div class="modal-content ">
+                        <div class="modal-header ">
+                            <h1 class="modal-title fs-5 " id="staticBackdropLabel ">Lo siento!!</h1>
+                            <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                        </div>
+                        <div class="modal-body ">
+                            Mensajeria en mantecion proximamente disponible!!!
+                        </div>
+                        <div class="modal-footer ">
+                            <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     </div>
 
@@ -295,7 +283,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js " integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js " integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ " crossorigin="anonymous "></script>
 
-    <script src="assets/js/java.js"></script>
+    <script src="assets/js/java.js "></script>
 
 </body>
 
